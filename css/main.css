@@ -1,0 +1,92 @@
+body {
+	font-family: Arial, sans-serif; color: #574128; background: #CDB79E;
+	}
+ul, li, body, footer {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+h1, h2 {
+	color: #362819;
+}
+a {
+	color: #574128;
+}
+
+#logo, #logo-area h1{
+	display: inline-block;
+	vertical-align: middle;	
+	
+}
+#logo {
+	margin: 20px 20px 20px 20px;
+	
+}
+
+#logo-area, #main-nav {
+	width: 939px;
+	margin: auto;
+}
+#main-nav {
+	white-space: nowrap;
+	text-align: center;
+}
+.nav-item {
+	display: inline-block;
+	vertical-align: middle;
+}
+.nav-item:hover {
+	opacity: .5;
+	cursor: pointer;
+}
+.nav-item a {
+	display: inline-block;
+	width: 125px;
+	background: #E0DABD;
+	padding: 20px 0;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.introduction {
+	width: 830px;
+	margin: 60px auto 50px auto;
+}
+.introduction img, .introduction p {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.introduction p {
+	width: 400px;
+	margin-left: 20px;
+	line-height:1.5;
+}
+.introduction img {
+	width: 400px;
+}
+.featured {
+	text-align: center;
+}
+#dog-slideshow {
+	width: 830px;
+	height: 400px;
+	white-space: nowrap;
+	margin: 0 auto 50px auto;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+.featured img {
+	height: 300px;
+}
+footer {
+	text-align: center;
+	background: #ccc;
+	line-height: 1.5;
+	width: 100%;
+	padding: 20px;
+	
+	
+}
